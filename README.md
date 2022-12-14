@@ -18,7 +18,7 @@ Essa é uma solução para o desafio "Front End Mentor" [Order summary card chal
 
 ## Screenshot
 
-![Screenshot]()
+![Screenshot](./images/screenshot.png)
 
 ## Links
 
