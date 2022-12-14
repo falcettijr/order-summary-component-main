@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous" />
+
+    <title>Sergio Falcetti | Order summary card</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+      body {
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-size: 16px;
+        margin: 0;
+      }
+
+      .container {
+        justify-content: center;
+      }
+
+      .card {
+        left: 500px;
+        justify-content: center;
+      }
+
+      img.card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .card-title {
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .card-text {
+        font-family: "Red Hat Display", sans-serif;
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+        font-size: small;
+      }
+
+      button {
+        width: 100%;
+        text-align: center;
+        color: hsl(245, 75%, 52%);
+      }
+
+      a.card-link {
+        font-family: "Red Hat Display", sans-serif;
+        display: block;
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+        font-size: small;
+        text-decoration: none;
+        left: 300px;
+        padding-top: 10px;
+      }
+
+     
+
+      #caixa {
+        position: relative;
+        height: 100px;
+        width: 250px;
+      }
+
+      img.icon-music {
+        display: inline-block;
+        position: relative;
+        top: 28px;
+        padding-right: 10px;
+      }
+
+      p.annual {
+        display: inline-block;
+        position: relative;
+        color: hsl(223, 47%, 23%);
+        font-weight: bold;
+        font-family: "Red Hat Display", sans-serif;
+        top: 15px;
+        
+      }
+
+      p.price {
+       display: inline-block;
+       position: relative;
+      left: 65px;
+       text-decoration: none;
+        color: hsl(224, 23%, 55%);              
+      }
+
+      .change {
+        display: inline-block;
+        position: relative;  
+        left: 100px;
+        bottom: 10px;
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+        font-size: small;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/illustration-hero.svg"
+          class="card-img-top"
+          alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Order Summary</h5>
+          <p class="card-text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="container" id="caixa">
+            <img class="icon-music" src="./images/icon-music.svg" alt="" />
+            <p class="annual">Annual Plan</p>
+            <br />
+            <p class="price">$59.99/year</p>
+            <a class="change" href="">Change</a>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <button type="button" class="btn btn-primary">
+            Proceed to Payment</button
+          ><br />
+          <a href="#" class="card-link">Cancel Order</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
