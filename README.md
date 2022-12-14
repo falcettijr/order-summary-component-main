@@ -22,8 +22,8 @@ Essa é uma solução para o desafio "Front End Mentor" [Order summary card chal
 
 ## Links
 
-- Solution URL: [Solução] ()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solução] (https://www.frontendmentor.io/solutions/order-summary-component-RBKUzZfwA_)
+- Live Site URL: [Live Site](https://falcettijr.github.io/order-summary-component-main/)
 
 ## Feito com
 
